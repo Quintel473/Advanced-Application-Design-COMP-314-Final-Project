@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/yourrepo.git'
+                git branch: 'main', url: 'https://github.com/Quintel473/Advanced-Application-Design-COMP-314-Final-Project.git'
             }
         }
         
